@@ -1,4 +1,5 @@
 {
+  "homepage":"https://valearias07.github.io/HashTagCounter/",
   "name": "react-files",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "purge": "purgecss --css sass/custom.css --content src/Form.js -o src/css/custom.css"
+    "purge": "purgecss --css sass/custom.css --content src/Form.js -o src/css/custom.css",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +44,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
