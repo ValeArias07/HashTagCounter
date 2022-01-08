@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HashTagCounter/static/css/main.9858e345.css",
+    "main.js": "/HashTagCounter/static/js/main.65208362.js",
+    "index.html": "/HashTagCounter/index.html",
+    "main.9858e345.css.map": "/HashTagCounter/static/css/main.9858e345.css.map",
+    "main.65208362.js.map": "/HashTagCounter/static/js/main.65208362.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9858e345.css",
+    "static/js/main.65208362.js"
+  ]
+}
